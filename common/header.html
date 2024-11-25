@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg" data-bs-theme="light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="assets/images/logo_black.png" alt="ADLIV" class="logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hpNavheader" aria-controls="hpNavheader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="hpNavheader">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <button class="get-start-btn">
+            <a class="nav-link get-start" href="#">Get Start</a>
+          </button>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+  <!-- on click -->
+  <script>
+    $("#hpNavheader ul li").click(
+    function(event) {
+      $('li').removeClass('active');
+      $(this).addClass('active');
+      event.preventDefault()
+    }
+    );
+  </script>
