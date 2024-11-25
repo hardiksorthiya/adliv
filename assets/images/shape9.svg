@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.4mm" height="93.88mm" viewBox="0 0 247.76 266.11">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" y1="133.06" x2="247.76" y2="133.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86c65a"/>
+      <stop offset="0.08" stop-color="#91cb69" stop-opacity="0.93"/>
+      <stop offset="0.52" stop-color="#cce7b9" stop-opacity="0.54"/>
+      <stop offset="0.84" stop-color="#f1f8ec" stop-opacity="0.29"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <polygon class="a" points="247.76 0 0 103.09 213.16 266.11 247.76 0"/>
+</svg>
