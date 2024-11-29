@@ -528,3 +528,107 @@ form.subscription-form input.form-control {
 .bottom-ftr-privacy-sec a:hover {
     color: var(--primary-color);
 }
+.icon-heading-services img {
+    width: 80px;
+}
+.icon-heading-services {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card-with-image {
+    position: relative;
+    transition: 0.4s;
+}
+.card-with-image:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 15px;
+    background: linear-gradient(-45deg, #7ed957 20%, #467f2e9c 50%, #347d15 100%);
+    opacity: 0.6;
+}
+.icon-heading-services h2 {
+    font-weight: 600;
+    margin-top: 17px;
+    color: white;
+}
+.iconservices {
+    width: 64px;
+    margin: 10px 0;
+}
+.service-single-white {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    z-index: 10;
+    box-shadow: 0px 18px 72px 0px rgba(0, 0, 0, 0.07);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 14px;
+}
+.card-services:hover .card-with-image {
+    opacity: 0;
+}
+.card-services:hover .service-single-white {
+    opacity: 1;
+    visibility: visible;
+}
+a.service-single-white-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 35px;
+    width: 100%;
+    height: 100%;
+}
+span.service-title-hm {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.service-single-white p {
+    margin-top: 20px;
+}
+section#services-adliv {
+    margin-top: 200px;
+}
+.text-services-logo {
+    font-size: 260px;
+    font-weight: 700;
+    line-height: 1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--primary-color);
+    -webkit-text-fill-color: transparent;
+    opacity: 0.28;
+    top: 70%;
+    position: absolute;
+    z-index: 9;
+    transform: rotate(90deg);
+    right: -340px;
+}
+footer#footer-hp {
+    margin-top: 100px;
+}
+.services-card.position-relative .row {
+    row-gap: 30px;
+    justify-content: center;
+}
