@@ -4728,6 +4728,7 @@ ul.content-list-hp.p-0 {
 }
 .about-tab .nav-link.active, .about-tab .nav-link:hover {
   background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1549px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-tab .nav-link {
@@ -6602,7 +6603,7 @@ ul.content-list-hp.p-0 {
   }
 }
 .service-single-white .icon {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -10602,16 +10603,16 @@ ul.content-list-hp.p-0 {
 .logo-with-contact-detail {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 30px 0 0;
 }
 p.about-adlive-footer, .social-icons-adliv-footer {
-  width: 270px;
+  max-width: 320px;
 }
 .contact-detail-footer {
   display: flex;
   flex-direction: column;
-  width: 270px;
+  max-width: 320px;
   margin: 15px 0;
 }
 a.contact-det-ft i {
@@ -10648,8 +10649,8 @@ transition: 0.5s
   margin-right: 15px;
 }
 copiright {
-  width: 270px;
-  margin: 60px 0 0;
+  max-width: 320px;
+  margin: 20px 0 0;
 }
 .top-right-footer {
   background: #bee9ac;
@@ -10667,7 +10668,7 @@ copiright {
   right: 0;
   position: absolute;
   z-index: -1;
-  height: 45%;
+  height: 43%;
 }
 .contact-us-sec-footer p {
   max-width: 540px;
@@ -10751,6 +10752,53 @@ form.subscription-form input.form-control {
     border-radius: 0 0px 0 0;
     margin-top: 195px;
   }
+  .top-right-footer {
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+.bottom-right-footer {
+  padding: 60px 0 0 40px;
+  flex-wrap: wrap;
+  margin-top: 196px;
+  display: flex;
+}
+.bottom-right-footer:after {
+  height: 80%;
+}
+.logo-with-contact-detail {
+  margin-top: 196px;
+}
+}
+@media only screen and (max-width: 430px) {
+  .top-right-footer {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bottom-right-footer {
+  flex-wrap: wrap;
+  margin-top: 0;
+  display: flex;
+  padding: 10px;
+}
+
+.logo-with-contact-detail {
+  margin-top: 340px;
+}
+copiright {
+  width: 320px;
+  margin: 20px 0;
+}
 }
 @media only screen and (max-width: 767px) {
   .footer-left {
