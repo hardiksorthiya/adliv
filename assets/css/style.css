@@ -4389,6 +4389,7 @@ ul.content-list-hp.p-0 {
   top: -20px;
   left: 26px;
   font-style: italic;
+  font-size: 18px !important;
 }
 .about-details-list li {
   display: flex;
@@ -15312,4 +15313,9 @@ copiright {
   .newsletter-two-inner .footer-widget-form .btn {
     padding: 20px 25px;
   }
+}
+@media only screen and (min-width: 1200px){
+  .testimonial-one {
+    margin-top: 200px;
+}
 }
