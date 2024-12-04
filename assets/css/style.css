@@ -6093,9 +6093,9 @@ ul.content-list-hp.p-0 {
 }
 .radial-progress .circle-text span.count {
   font-family: var(--body-font);
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--secondary-color);
   position: relative;
 }
@@ -7521,7 +7521,7 @@ ul.content-list-hp.p-0 {
 /*  2.7 - Work Styles CSS
 /*----------------------------------------*/
 .work-bg {
-  background-image: url(../images/why-bg.png);
+  background-image: url(../images/why-bg2.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10654,7 +10654,7 @@ copiright {
   margin: 20px 0 0;
 }
 .top-right-footer {
-  background: #bee9ac;
+  background: #0600f0;
   padding: 50px;
   margin-top: 50px;
   display: flex;
@@ -10663,7 +10663,7 @@ copiright {
 }
 .top-right-footer:after {
   content: "";
-  background: #bee9ac;
+  background: #0600f0;
   width: 66.66666667%;
   top: 50px;
   right: 0;
