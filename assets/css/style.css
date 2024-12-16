@@ -15319,3 +15319,48 @@ copiright {
     margin-top: 200px;
 }
 }
+
+
+
+/* price */
+
+.price-box {
+  box-shadow: 2px 2px 10px #80808026;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  justify-content: center;
+}
+.price-box h3 {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.price-box h4 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.price-box h6:before {
+  content: "";
+  background: black;
+  width: 70px;
+  height: 2px;
+  display: block;
+  border-radius: 10px;
+}
+.price-box h6 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.price-box p {
+  text-align: center;
+  margin-top: 10px;
+}
